@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biometric_prompt_title">Iniciar sesión</string>
+    <string name="biometric_prompt_subtitle">Identifícate</string>
+    <string name="biometric_prompt_description">Desbloquea el dispositivo</string>
+    <string name="biometric_prompt_negative_button">Cancelar</string>
+    <string name="login_no_access">Acceso denegado a la aplicación.</string>
+    <string name="login_device_no_sensor">El dispositivo no tiene sensor de huella.</string>
+    <string name="login_device_no_enrolled_fingerprints">El dispositivo no tiene huellas almacenadas, inténtalo más
+        tarde.
+    </string>
+    <string name="login_app_no_permissions">La aplicación no tiene permisos para usar el lecctor de huellas.</string>
+    <string name="login_unlock_device">Desbloquea el dispositivo para continuar.</string>
+    <string name="login_try_again">Inténtalo de nuevo</string>
+    <string name="menu_button_add_server">Añadir servidor</string>
+    <string name="menu_button_acquire">Adquirir evidencia</string>
+    <string name="menu_button_list_evidences">Mostrar evidencia</string>
+    <string name="menu_button_send_to_server">Enviar al servidor</string>
+    <string name="menu_button_sync">Sincronizar con el servidor</string>
+    <string name="menu_button_delete_history">Borrar historico</string>
+    <string name="menu_button_clean_history">Destruir histórico</string>
+    <string name="toast_check_permissions">La aplicación no tiene acceso a los archivos. Revisa los permisos.</string>
+    <string name="toast_set_permission">La aplicación necesita este permiso. Revisa los permisos.</string>
+    <string name="toast_you_will_continue">La aplicación está lista, puedes continuar con la aplicación.</string>
+    <string name="alert_evidence_info">Completa la información de la evidencia.</string>
+    <string name="alert_name">Nombre</string>
+    <string name="alert_positive_button">Guardar</string>
+    <string name="alert_negative_button">Cancelar</string>
+    <string name="alert_hint">Nombre de evidencia</string>
+    <string name="alert_priority">Prioridad</string>
+    <string name="alert_priority_high">Alto</string>
+    <string name="alert_priority_medium">Medio</string>
+    <string name="alert_priority_low">Bajo</string>
+    <string name="dialog_wait_acquire">Adquiriendo evidencia</string>
+    <string name="dialog_wait_send_to_server_list">Enviando evidencias al servidor</string>
+    <string name="dialog_wait_send_to_server">Enviando evidencia a servidor</string>
+    <string name="dialog_wait_add_server">Añadiendo servidor</string>
+    <string name="dialog_wait_sync_server">Sincronizando evidencias</string>
+    <string name="dialog_wait_delete_history">Borrando historial</string>
+    <string name="alert_evidence_ok">Evidencia adquirida correctamente</string>
+    <string name="alert_evidence_fail">Evidencia no adquirida, prueba más tarde.</string>
+    <string name="alert_btn_accept">Aceptar</string>
+    <string name="dialog_list_wait">Cargando lista de evidencias</string>
+    <string name="text_view_name">Nombre:</string>
+    <string name="text_view_type">Tipo:</string>
+    <string name="text_view_priority">Prioridad:</string>
+    <string name="text_view_severity">Criticidad:</string>
+    <string name="text_view_states">Estados:</string>
+    <string name="text_view_states_loading">Cargando estados, espera.</string>
+    <string name="alert_something_wrong">Algo ha ido mal, volviendo a la lista de evidencias.</string>
+    <string name="text_view_state_name">Estado</string>
+    <string name="text_view_state_date">Fecha</string>
+    <string name="text_view_state_user">Usuario</string>
+    <string name="text_view_state_device">Dispositivo</string>
+    <string name="text_view_state_origin_path">Ruta_origen</string>
+    <string name="text_view_state_destination_device">Dispositivo_destino</string>
+    <string name="text_view_state_can_delete">Se_puede_borrar</string>
+    <string name="text_view_state_field">Campo</string>
+    <string name="text_view_state_old_value">Valor antiguo</string>
+    <string name="text_view_state_new_value">Valor nuevo</string>
+    <string name="alert_sure_delete_evidence">¿Seguro que quieres eliminar la evidencia?</string>
+    <string name="alert_evidence_deleted">Evidencia eliminada</string>
+    <string name="dialog_delete_evidence">Espera mientras la evidencia es eliminada.</string>
+    <string name="alert_send_to_server_list_ok">Las evidencias han sido correctamente enviada al servidor.</string>
+    <string name="alert_send_to_server_list_fail">La evidencia no ha podido ser enviada al servidor. Inténtalo más
+        tarde.
+    </string>
+    <string name="alert_send_to_server_not_server">"La evidencia no ha podido ser enviada al servidor. Inténtalo más
+        tarde. "
+    </string>
+    <string name="alert_send_to_server_ok">La evidencia ha sido correctamente enviada al servidor.</string>
+    <string name="alert_send_to_server_fail">La evidencia no ha podido ser enviada al servidor. Inténtalo más tarde.</string>
+    <string name="alert_add_server_ok">Servidor añadido correctamente.</string>
+    <string name="alert_add_server_fail">" Servidor no añadido, inténtalo más tarde."</string>
+    <string name="alert_sync_server_ok_elements">Hay evidencias pendientes de enviar al servidor.</string>
+    <string name="alert_sync_server_ok_empty">Todas las evidencias enviadas al servidor. No hay evidencias pendientes de
+        enviar.
+    </string>
+    <string name="alert_sync_server_fail">La sincronización con el servidor ha fallado, inténtalo más tarde.</string>
+    <string name="alert_delete_history">Sólo las evidencias enviadas al servidor serán borradas, ¿estás seguro?</string>
+    <string name="alert_delete_history_ok">Histórico borrado correctamente.</string>
+    <string name="alert_delete_history_fail">Histórico no borrado. Inténtalo más tarde.</string>
+    <string name="alert_clean_history">Esta acción destruirá el histórico, ¿estás seguro?</string>
+    <string name="alert_clean_history_ok">Histórico destruido correctamente.</string>
+    <string name="alert_clean_history_fail">Histórico no destruido, inténtalo más tarde.</string>
+    <string name="biometric_prompt_history_title">Verificación de identidad</string>
+    <string name="biometric_prompt_history_subtitle">Identifícate</string>
+    <string name="biometric_prompt_history_description">Desbloquea el dispositivo para continuar.</string>
+    <string name="alert_add_server_server_info">Completa la información del servidor</string>
+    <string name="alert_add_server_ip">Completa la IP del servidor</string>
+    <string name="alert_add_server_ip_server">IP del servidor</string>
+</resources>

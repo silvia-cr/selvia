@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:text="@string/alert_evidence_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_margin="5dp"/>
+
+    <TextView
+            android:text="@string/alert_name"
+            android:id="@+id/evidence_name_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            android:layout_margin="5dp"/>
+
+    <EditText
+            android:id="@+id/text_evidence_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textAlignment="viewStart"
+            android:layout_margin="5dp"
+            android:hint="@string/alert_hint"
+            android:maxLength="32"/>
+
+    <TextView
+            android:text="@string/alert_priority"
+            android:id="@+id/evidence_priority_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            android:layout_margin="5dp"/>
+
+    <RadioGroup
+            android:id="@+id/alert_priority_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <RadioButton
+                android:text="@string/alert_priority_high"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/alert_priority_high"
+                android:layout_weight="1"/>
+        <RadioButton
+                android:text="@string/alert_priority_medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/alert_priority_medium"
+                android:layout_weight="1"/>
+        <RadioButton
+                android:text="@string/alert_priority_low"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/alert_priority_low"
+                android:layout_weight="1"/>
+    </RadioGroup>
+
+</LinearLayout>

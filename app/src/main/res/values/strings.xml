@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name" translatable="false">Digital Evidence Manager</string>
+
+    <!-- BiometricPrompt -->
+    <string name="biometric_prompt_title">Login</string>
+    <string name="biometric_prompt_subtitle">Identify you</string>
+    <string name="biometric_prompt_description">Please, unlock the device</string>
+    <string name="biometric_prompt_negative_button">Cancel</string>
+
+    <!-- LoginActivity -->
+    <string name="login_no_access">Sorry, you cannot access to the app.</string>
+    <string name="login_device_no_sensor">Your device has not fingerprint sensor.</string>
+    <string name="login_device_no_enrolled_fingerprints">Your device has not enrolled fingerprints. Please enable this
+        in settings and try again.
+    </string>
+    <string name="login_app_no_permissions">This app do not have permissions to use fingerprint sensor.</string>
+    <string name="login_unlock_device">You need to unlock the device to continue.</string>
+    <string name="login_try_again">Try again</string>
+
+    <!-- MenuActivity -->
+    <string name="menu_button_add_server">Add server</string>
+    <string name="menu_button_acquire">Acquire evidence</string>
+    <string name="menu_button_list_evidences">Show evidences</string>
+    <string name="menu_button_send_to_server">Send to server</string>
+    <string name="menu_button_sync">Synchronize with server</string>
+    <string name="menu_button_delete_history">Delete history</string>
+    <string name="menu_button_clean_history">Clean history</string>
+    <string name="toast_check_permissions">This app cannot access to the files, please check the app permissions in
+        device settings.
+    </string>
+    <string name="toast_set_permission">The app need this permissions. Please check that if you can use the app.
+    </string>
+    <string name="toast_you_will_continue">The permissions are ready, you can continue using the app.</string>
+
+    <!-- Alert evidence data -->
+    <string name="alert_evidence_info">Please, complete the evidence information</string>
+    <string name="alert_name">Name</string>
+    <string name="alert_positive_button">Save</string>
+    <string name="alert_negative_button">Cancel</string>
+    <string name="alert_hint">Evidence name</string>
+    <string name="alert_priority">Priority</string>
+    <string name="alert_priority_high">High</string>
+    <string name="alert_priority_medium">Medium</string>
+    <string name="alert_priority_low">Low</string>
+
+    <!-- Progress bar -->
+    <string name="dialog_wait_acquire">Please, wait while the evidence is acquired</string>
+    <string name="dialog_wait_send_to_server_list">Please, wait while the evidences are sent to server</string>
+    <string name="dialog_wait_send_to_server">Please, wait while the evidence is sent to server</string>
+    <string name="dialog_wait_add_server">Please, wait while a new server is added</string>
+    <string name="dialog_wait_sync_server">Please, wait while the evidences are synchronized with the server.</string>
+    <string name="dialog_wait_delete_history">Please, wait while the history is deleted</string>
+
+    <!-- Alert evidence results -->
+    <string name="alert_evidence_ok">The evidence has been successfully acquired</string>
+    <string name="alert_evidence_fail">The evidence has not been acquired. Please, try again later.</string>
+    <string name="alert_btn_accept">Accept</string>
+
+    <!-- Evidence List Activity -->
+    <string name="dialog_list_wait">Please, wait while the evidences are listed</string>
+
+    <!-- Evidence Detail Activity -->
+    <string name="text_view_id" translatable="false">ID:</string>
+    <string name="text_view_name">Name:</string>
+    <string name="text_view_type">Type:</string>
+    <string name="text_view_priority">Priority:</string>
+    <string name="text_view_severity">Severity:</string>
+    <string name="text_view_metadata" translatable="false">Metadata:</string>
+    <string name="text_view_states">States:</string>
+    <string name="text_view_states_loading">States loading, please wait.</string>
+
+    <!-- Alert Something Wrong in Detail Activity -->
+    <string name="alert_something_wrong">Something went wrong with the evidence, returning to evidences list</string>
+
+    <!-- State Detail in Evidence Detail Activity -->
+    <string name="text_view_state_name">State</string>
+    <string name="text_view_state_date">Date</string>
+    <string name="text_view_state_user">User</string>
+    <string name="text_view_state_device">Device</string>
+    <string name="text_view_state_origin_path">Origin_path</string>
+    <string name="text_view_state_destination_device">Destination_device</string>
+    <string name="text_view_state_can_delete">Can_be_deleted</string>
+    <string name="text_view_state_field">Field</string>
+    <string name="text_view_state_old_value">Old_value</string>
+    <string name="text_view_state_new_value">New_value</string>
+
+    <!-- Delete Evidence Alert in Evidence Detail Activity -->
+    <string name="alert_sure_delete_evidence">Are you sure to delete this evidence?</string>
+    <string name="alert_evidence_deleted">Evidence deleted</string>
+    <string name="dialog_delete_evidence">Please, wait while the evidence is deleted</string>
+
+    <!-- Alert send to server results -->
+    <string name="alert_send_to_server_list_ok">The evidences have been successfully send to server</string>
+    <string name="alert_send_to_server_list_fail">The evidences have not been send to server. Please, try again later.</string>
+    <string name="alert_send_to_server_not_server">The evidences have not been send to server. Please, add a server.</string>
+    <string name="alert_send_to_server_ok">The evidence has been successfully send to server</string>
+    <string name="alert_send_to_server_fail">The evidence has not been send to server. Please, try again later.</string>
+
+    <!-- Alert add server -->
+    <string name="alert_add_server_ok">Server added successfully</string>
+    <string name="alert_add_server_fail">The server has not been added. Please, try again later.</string>
+
+    <!-- Alert sync server -->
+    <string name="alert_sync_server_ok_elements">There are evidences that need to be sent to server.</string>
+    <string name="alert_sync_server_ok_empty">All the evidences are in server. They do not need to be sent.</string>
+    <string name="alert_sync_server_fail">The synchronization with server has failed. Please, try again later.</string>
+
+    <!-- Alert delete history -->
+    <string name="alert_delete_history">Only evidences sent to server will be deleted. Are you sure?</string>
+    <string name="alert_delete_history_ok">History has been deleted successfully.</string>
+    <string name="alert_delete_history_fail">History has not been deleted. Please, try again later</string>
+
+    <!-- Alert delete history -->
+    <string name="alert_clean_history">This action remove all the history. Are you sure?</string>
+    <string name="alert_clean_history_ok">History has been cleaned successfully.</string>
+    <string name="alert_clean_history_fail">History has not been cleaned. Please, try again later</string>
+
+    <!-- BiometricPrompt - Clean History -->
+    <string name="biometric_prompt_history_title">Identity verification</string>
+    <string name="biometric_prompt_history_subtitle">We need to identify you</string>
+    <string name="biometric_prompt_history_description">Please, unlock the device to continue with this action</string>
+
+    <!-- Alert add server -->
+    <string name="alert_add_server_server_info">Please, complete the server information</string>
+    <string name="alert_add_server_ip">Complete the IP of the server</string>
+    <string name="alert_add_server_ip_server">Server IP</string>
+</resources>
