@@ -42,4 +42,4 @@ project.properties
 build/
 
 # Archivos locales
-#app/src/main/java/com/tfm/digitalevidencemanager/Local\.kt
+app/src/main/java/com/tfm/digitalevidencemanager/Local\.kt
