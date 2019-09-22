@@ -46,14 +46,14 @@ class Utils {
 
             try {
                 val keyGenerator = KeyGenerator.getInstance(Constants.CIPHER_ALGORITHM, Constants.PROVIDER)
-                val keyGenParameterSpec = KeyGenParameterSpec.Builder(Constants.ALIAS,KeyProperties.PURPOSE_ENCRYPT)
+                val keyGenParameterSpec = KeyGenParameterSpec.Builder(Constants.ALIAS, KeyProperties.PURPOSE_ENCRYPT)
                     .setBlockModes(KeyProperties.BLOCK_MODE_GCM)
                     .setEncryptionPaddings(KeyProperties.ENCRYPTION_PADDING_NONE)
+                    .setIsStrongBoxBacked(true)
                     .build()
 
                 keyGenerator.init(keyGenParameterSpec)
                 val secretKey = keyGenerator.generateKey()
-
 
                 val cipher = Cipher.getInstance(Constants.CIPHER_SUITE)
                 cipher.init(Cipher.ENCRYPT_MODE, secretKey)
