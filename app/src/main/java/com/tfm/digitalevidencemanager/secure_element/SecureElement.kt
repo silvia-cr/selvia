@@ -10,9 +10,9 @@ class SecureElement() {
 
     }
 
-    fun get(context: Context): String {
+    fun get(context: Context, alias: String): String {
         val sec = SecureElementConnector(context)
-        return sec.read("test").toString()
+        return sec.read(alias).toString()
     }
 
     fun store(context: Context, text : String) : String?{
